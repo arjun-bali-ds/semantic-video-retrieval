@@ -10,7 +10,7 @@ This project implements a prototype of a multimodal retrieval system that:
 - Will be extended to generate SQL queries and answers using LLMs
 
 ## Project Structure
-
+```
 semantic-video-retrieval/
 │
 ├── data/
@@ -32,7 +32,7 @@ semantic-video-retrieval/
 ├── requirements.txt              # List of Python dependencies
 └── .gitignore                    # Ignore large video and embeddings folders
 
-
+```
 To prevent large files (such as videos and embeddings) from being uploaded to the remote repository, add the following to .gitignore:
 
 data/videos/
