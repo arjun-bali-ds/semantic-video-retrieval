@@ -34,10 +34,10 @@ semantic-video-retrieval/
 
 ```
 To prevent large files (such as videos and embeddings) from being uploaded to the remote repository, add the following to .gitignore:
-
+```
 data/videos/
 embeddings/
-
+```
 ## How to Use
 ### Step 1: Install dependencies
 To get started, first install the dependencies:
